@@ -1,7 +1,7 @@
-import { type ChartOptions, ChartData } from 'chart.js';
+import { type  ChartData } from 'chart.js';
 import { type Participant } from '@/types';
 
-export const options: ChartOptions = {
+export const options = {
   responsive: true,
   plugins: {
     legend: {
