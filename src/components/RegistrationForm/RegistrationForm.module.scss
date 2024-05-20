@@ -1,0 +1,19 @@
+@use '@/styles/colors.scss';
+
+.form{
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+  max-width: 600px;
+  background-color: colors.$alice-blue;
+  color: colors.$quartz;
+}
+
+.radio{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}

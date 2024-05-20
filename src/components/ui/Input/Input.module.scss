@@ -1,0 +1,54 @@
+@use '@/styles/colors.scss';
+
+.input-group {
+  position: relative;
+  background-color: transparent;
+
+  .input {
+    width: 100%;
+    padding: 0.65rem 1rem;
+    background-color: transparent;
+    font-size: 1rem;
+    line-height: 1.15rem;
+    color: colors.$quartz;
+    letter-spacing: 0.01em;
+
+    border: 1px solid colors.$light-cobalt-blue;
+    border-radius: 0.25rem;
+
+    &:hover {
+      border-color: blue;
+
+      &::placeholder {
+        color: blue;
+      }
+    }
+
+    &:focus {
+      box-shadow: #8f56eb4f 0px 3px 6px, #8f56eb6e 0px 3px 6px;
+
+      &::placeholder {
+        color: #30007B;
+      }
+    }
+
+    &.input-error {
+      color: colors.$error;
+      border-color: colors.$error;
+
+      &:focus{
+        box-shadow: #eb56564f 0px 3px 6px, #eb56564f 0px 3px 6px;
+      }
+
+      &::placeholder {
+        color: colors.$error;
+      }
+    }
+  }
+
+  .error {
+    font-size: 0.75rem;
+    color: colors.$error;
+    letter-spacing: 0.01em;
+  }
+}

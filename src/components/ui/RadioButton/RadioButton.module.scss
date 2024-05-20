@@ -1,0 +1,19 @@
+.radiobtn-container {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+
+  .input {
+    width: 1em;
+    height: 1em;
+  }
+
+  .label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    color: #000;
+    letter-spacing: 0.01em;
+  }
+}

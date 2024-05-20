@@ -1,0 +1,31 @@
+@use '@/styles/colors.scss';
+
+.card{
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  background-color: colors.$alice-blue;
+  color: colors.$quartz;
+
+  h3{
+    font-size: large;
+    font-weight: bolder;
+    color: colors.$vampire-black;
+  }
+
+  p{
+    flex-grow: 1;
+    overflow:hidden;
+    text-overflow:ellipsis
+  }
+}
+
+.control{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  a{
+    color: colors.$blue-bolt;
+  }
+}

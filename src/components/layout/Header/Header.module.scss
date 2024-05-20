@@ -1,0 +1,17 @@
+@use '@/styles/colors.scss';
+
+.header{
+  padding: 1.5em;
+  background-color: colors.$vampire-black;
+
+  h1{
+    text-align: center;
+    color: colors.$alice-blue;
+
+    &:hover{
+      text-decoration: underline;
+      text-decoration-color: colors.$blue-bolt;
+      transition: text-decoration-color 1.5s;
+    }
+  }
+}

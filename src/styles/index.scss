@@ -1,0 +1,33 @@
+@use './normalize.scss';
+@use './reset.scss';
+@use './colors.scss';
+
+
+:root {
+  font-family: Raleway, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  //color-scheme: light dark;
+  color: #323233;
+  background-color: colors.$ghost-white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body{
+  height: 100%;
+}
+
+#root{
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
