@@ -14,6 +14,8 @@ To run this project, install it locally using npm:
 npm install
 npm run dev
 ```
+## Tips
+![Alt text](EventsGif.gif)
 
 ## Visit:
 [https://events-client-three.vercel.app/](https://events-client-three.vercel.app/)
